@@ -45,4 +45,26 @@ Ahora reiniciaremos apache2 con el comando:
 sudo service apache2 restart
 ```
 
+## Instalacion de apache2, mysql y algunas librerias mas. 
+
+1. Primero actualizaremos la maquina virtual con el comando
+ ```bash
+sudo apt update
+```
+```bash
+sudo apt upgrade
+```
+2.  Instalacion del servidor apache2 con el comando:
+   ```bash
+sudo apt install -y apache2
+```
+
+3.  Instalacion del servidor base de mysql-server
+   ```bash
+sudo apt install -y mysql-server
+```
+
+
+
+
 
