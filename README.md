@@ -136,5 +136,40 @@ sudo rm -rf app-web/
 
 6. Eliminaremos el archivo llamado index.html
 ```bash
+sudo rm -rf /var/www/html/index.html
+```
+
+## Aplicaicon de permisos para nuestra web
+
+1. Una vez descomprimido el archivo le daremos permiso a la apicaion web
+```bash
+cd /var/www/html
+```
+```bash
+sudo chmod -R 775 .
+```
+```bash
+sudo chown -R usuario:www-data .
+```
+
+## Accederemos al navegador para ver si todo funciona correctamente
+
+Ponga la dirección http://localhost en el navegador web y configure la cloud.
+
+Si todo ha ido bien y ha seguido el manual le aparecerá el instalador de la aplicación web que ha descargado y le pedirá crear un usuario admin y la información de la base de datos.
+
+La información que debe poner (si no ha modificado la información del manual) es la siguiente:
+   ```bash
+    usuario: usuario
+   ```
+   ```bash
+    contraseña: password
+   ```
+   ```bash
+    base de datos: bbdd
+```
+```bash
+dominio: localhost
+```
 
 
