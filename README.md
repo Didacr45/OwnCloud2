@@ -63,8 +63,78 @@ sudo apt install -y apache2
    ```bash
 sudo apt install -y mysql-server
 ```
+4. Instalacion de algunas librerias PHP
+```bash
+sudo apt install -y php libapache2-mod-php
+```
+```bash
+sudo apt install -y php-fpm php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
+```
+5. Reiniciamos el servidor apache2
+```bash
+sudo systemctl restart apache2
+```
 
+## Configuracion en el servidor MySQL
 
+1. Accederemos a la consola MySQL con el comando
+```bash
+sudo mysql
+```
 
+2. Creacion de la base de datos de MySQL
+```bash
+CREATE DATABASE bbdd;
+```
+3. Creacion de usuarios en la base de datos MySQL
+```bash
+CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+```
+4. Daremos privilegios al usuario creado anteriormente
+```bash
+GRANT ALL ON bbdd.* to 'usuario'@'localhost';
+```
+5. Saldremos de la base de datos
+```bash
+exit
+```
+6. Probaremos la conexsion con la base de datos
+```bash
+mysql -u usuario -p
+```
+7. Volveremos a salir de la base de datos MySQL
+```bash
+exit
+```
+
+## Descargaremos el archivo de OwnCloud
+
+1. Primero descargaremos el archivo del OwnCloud
+```bash
+https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip
+```
+
+2. Iremos al directorio /var/www/html
+```bash
+cd /var/www/html
+```
+
+3. Descomprimiremos el archivo cambiando el appp-web por el nombre de nuestro archivo
+```bash
+sudo unzip app-web.zip
+```
+
+4. Moveremos la carpeta al directorio /var/www/html
+```bash
+sudo cp -R app-web/. /var/www/html
+```
+
+5. Eliminaremos el unzip del archivo de la carpeta de descargas
+```bash
+sudo rm -rf app-web/
+```
+
+6. Eliminaremos el archivo llamado index.html
+```bash
 
 
