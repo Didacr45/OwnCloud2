@@ -28,7 +28,9 @@ Para dar un **Rol** ya creado tendras que darle al apartado **Roles** que sale e
 
 <img src="DarPermisos.png" alt="Hola">
 
-Luego para ya darle permisos en esa capeta tendras que poner el raton sobre el usuario al cual le ayas compartido la capeta y podras ponerle permisos para editar o para ver.
+Luego para ya darle permisos en esa capeta tendras que poner el raton sobre el usuario al cual le ayas compartido la capeta darle a la tuerca y podras ponerle permisos para editar, para ver o para borrar.
+
+<img src="DarPermisosDefinitivamente.png" alt="Hola">
 
 
 
