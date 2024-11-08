@@ -1,6 +1,6 @@
 # Configuarion del OwnCloud
 
-hfkujhfha
+1. Lo primero que aremos sera crear un usuaruio en el OwnCloud
 
 
 
