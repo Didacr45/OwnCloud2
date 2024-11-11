@@ -172,4 +172,4 @@ La información que debe poner (si no ha modificado la información del manual) 
 dominio: localhost
 ```
 
-En este enlace podras ver el manual de confoguarcion de **OwnCloud** [Configuracion]([https://github.com/Didacr45/Practica-1/blob/main/Cronica%20Monaco-Fc%20Barcelona.md](https://github.com/Didacr45/OwnCloud2/blob/main/Configuracion%20de%20OwnCloud.md))
+En este enlace podras ver el manual de confoguarcion de **OwnCloud** [Configuracion](https://github.com/Didacr45/OwnCloud2/blob/main/Configuracion%20de%20OwnCloud.md)
