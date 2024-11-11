@@ -32,7 +32,11 @@ Luego para ya darle permisos en esa capeta tendras que poner el raton sobre el u
 
 <img src="DarPermisosDefinitivamente.png" alt="Hola">
 
+Una vez ya dado los permisos tedras que entrar a un usuario creado para poder meter archivos en la carpeta que ya le hayas compartido anteriormente 
 
+Entraremos en la carpeta que hayamos compartido i subiremos un archivo cualquiera, para poder subir un archivo tendremos que dar al boton **+** y una vez ya dado le daremos al boton subidas y cojeremos el archivo que mas dese
+
+<img src="Meterarchivo.png" alt="Hola">
 
 
 
