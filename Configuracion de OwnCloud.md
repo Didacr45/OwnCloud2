@@ -38,11 +38,19 @@ Entraremos en la carpeta que hayamos compartido i subiremos un archivo cualquier
 
 <img src="Meterarchivo.png" alt="Hola">
 
+## Configuracion de Trusted Domain
+
+Para poder conectar varias VM tendras que ir al isarvdi y poner la red de puigcastellar1
+
+<img src="Meterarchivo.png" alt="Hola">
+
+Para que otros compañeros se puedan conectar a tu OwnCloud deveras poner tu IP en el apartado de **Trusted Domain**
+
+<img src="TrustedDomain.png" alt="Hola">
 
 
-#Pendiente de Explicar:
 
-- Configuracion Trusted Domains -> MV en red Puig Castellar 1 (Acceso Desde cualquier equipo del instituto), Conseguir IP de algun compañero, modificar config.php para añadir las IPs (sudo nano /var/www/html/config/config.php), añadir IPs de compañeros en el trusted domains (https://doc.owncloud.com/server/next/admin_manual/maintenance/migrating.html), reiniciar el servicio (sudo systemctl restart apache2), dar tu ip a los compañeros añadidos al trusted dommains (ip a), probar a iniciar sesion
+
 
 
 
