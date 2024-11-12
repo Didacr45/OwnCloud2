@@ -1,12 +1,12 @@
 # Configuarion del OwnCloud
 
-1. Lo primero que aremos sera entrar en el apartado de usuarios dandole clik a tu nombre de usuario
+1. Lo primero que haremos será entrar en el apartado de usuarios dándole clic a tu nombre de usuario.
 
 <img src="EntarCreacionUsuario.png" alt="Creacion">
 
-Para entrar al apartado que se muestra en la foto tendras que dare a tu nombre de usuario i luego darle al apatado **User**
+Para entrar al apartado que se muestra en la foto, tendrás que darle a tu nombre de usuario y luego darle al apartado. **User**
 
-2. Lo primero que aremos sera crear un usuaruio en el OwnCloud
+2. Lo primero que haremos será crear un usuario en el OwnCloud.
 
 <img src="CreacionUsuario.png" alt="Hola">
 
